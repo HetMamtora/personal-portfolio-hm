@@ -1,0 +1,9 @@
+{
+  "name": "HET MAMTORA",
+  "role": "Software Engineer | Full Stack Developer",
+  "bio": "Software Engineer with experience building high-throughput backend systems and full-stack applications. I work with Java, Spring Boot, React, and AWS — from event-driven pipelines processing 40M+ requests to production-deployed web platforms.",
+  "photoUrl": "",
+  "heroVideoUrl": "/assets/hero_video.mp4",
+  "ctaPrimary": { "label": "Get In Touch →", "href": "#contact" },
+  "ctaSecondary": { "label": "View Projects", "href": "#projects" }
+}

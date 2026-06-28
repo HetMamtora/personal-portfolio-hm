@@ -1,0 +1,10 @@
+[
+  { "category": "Language", "skills": ["Java", "JavaScript", "TypeScript", "Python"] },
+  { "category": "Backend", "skills": ["Spring Boot", "Microservices", "Jakarta EE (J2EE)", "Node.js", "Express.js", "REST APIs", "JWT"] },
+  { "category": "Frontend", "skills": ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Redux"] },
+  { "category": "Database", "skills": ["PostgreSQL", "MongoDB", "SQL", "Supabase", "Flyway (DB Migrations)"] },
+  { "category": "Cloud & DevOps", "skills": ["AWS (S3, SQS, Lambda, CloudWatch)", "Serverless", "CI/CD", "Docker"] },
+  { "category": "Tools & Observability", "skills": ["Git", "Postman", "Splunk", "Datadog", "Swagger/OpenAPI", "Maven", "Claude Code", "Codex", "Gemini Code Assist",
+"GitHub Copilot", "Railway", "Render", "Vercel"] },
+  { "category": "Practices", "skills": ["Data Structures & Algorithms", "System Design", "Agile/Scrum", "API Design"] }
+]

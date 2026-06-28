@@ -1,0 +1,33 @@
+[
+  {
+    "name": "DevFlow",
+    "description": "A developer productivity platform with integrated project management, code review workflows, and automated deployment pipelines.",
+    "stars": 342,
+    "techStack": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+    "github": "https://github.com/beans/devflow",
+    "liveDemo": "https://devflow.demo.dev"
+  },
+  {
+    "name": "API Gateway Pro",
+    "description": "High-performance API gateway with rate limiting, authentication, request transformation, and real-time analytics dashboard.",
+    "stars": 189,
+    "techStack": ["Go", "Redis", "Docker", "Prometheus"],
+    "github": "https://github.com/beans/api-gateway-pro",
+    "liveDemo": "https://apigw.demo.dev"
+  },
+  {
+    "name": "CloudDeploy CLI",
+    "description": "Command-line tool for seamless multi-cloud deployments. Supports AWS, GCP, and Azure with unified configuration and rollback capabilities.",
+    "stars": 97,
+    "techStack": ["Python", "AWS SDK", "Terraform", "Click"],
+    "github": "https://github.com/beans/clouddeploy-cli"
+  },
+  {
+    "name": "QueryOptimizer",
+    "description": "Intelligent SQL query analyzer and optimizer. Provides real-time suggestions, execution plan visualization, and performance benchmarking.",
+    "stars": 215,
+    "techStack": ["TypeScript", "PostgreSQL", "D3.js", "Express"],
+    "github": "https://github.com/beans/queryoptimizer",
+    "liveDemo": "https://queryopt.demo.dev"
+  }
+]

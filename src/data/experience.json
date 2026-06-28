@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Fidelity Investments",
+    "logo": "https://static.wixstatic.com/media/163ca5_8614aad31a3c480fb70ae9d5ea732edf~mv2.png/v1/fit/w_2500,h_1330,al_c/163ca5_8614aad31a3c480fb70ae9d5ea732edf~mv2.png",
+    "role": "Software Engineer",
+    "period": "Feb 2025 – Feb 2026",
+    "description": "Built backend services and data pipelines using Java, Spring Boot, and AWS within Brokerage Technology. Designed a distributed logging library with trace ID propagation that reduced debugging time by ~75% across multiple teams. Shipped an event-driven analytics pipeline (SQS → Lambda → S3) processing 40M+ requests asynchronously, and built a dashboard surfacing actionable insights from S3-based payloads.",
+    "techStack": ["Java", "Spring Boot", "Jakarta EE", "AWS", "SQS", "Lambda", "S3", "CloudWatch", "Splunk", "DataDog", "React", "TypeScript"]
+  },
+  {
+    "company": "Codiste - Blockchain & AI Company",
+    "logo": "https://www.codiste.com/_next/image?url=%2Fassets%2Fimages%2Fcommon%2FLogo-%20white.svg&w=48&q=75",
+    "role": "Full Stack Developer Intern",
+    "period": "Nov 2024 – Jan 2025",
+    "description": "Delivered full-stack features using React, Node.js, and TypeScript across production apps. Built 'Find Teachers' — a job platform with OAuth, email automation, and PostgreSQL — launched with active beta users. Engineered S3 signed-URL uploads and AI proxy APIs for 'Space Re-Imagined', maintaining stability during a live expo demo.",
+    "techStack": ["TypeScript", "Node.js", "Express", "React", "MongoDB", "Supabase (PostgreSQL)", "AWS S3"]
+  },
+  {
+    "company": "Cognizant",
+    "logo": "https://companieslogo.com/img/orig/CTSH-82a8444b.png?t=1720244491",
+    "role": "Programmer Analyst Intern",
+    "period": "Sep 2023 – Dec 2023",
+    "description": "Built automated test scripts using Java Selenium for 3+ modules. Gained hands-on experience with test automation, defect identification, and software testing best practices.",
+    "techStack": ["Java", "JUnit", "Unit Tests", "Automation"]
+  }
+]

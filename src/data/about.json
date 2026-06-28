@@ -1,0 +1,14 @@
+{
+  "paragraphs": [
+    "I'm a Software Engineer with hands-on experience building scalable backend services and full-stack applications. Most recently at Fidelity Investments, I worked in Brokerage Technology — shipping a distributed logging library that cut debugging time by ~75%, an async analytics pipeline handling 40M+ requests, and data dashboards surfacing insights across business units.",
+    "Before that, I built production apps at Codiste, including a job platform launched with real users. I also build side projects like MemoAlgo, a spaced repetition platform I architected and deployed end-to-end.",
+    " I'm driven by clean API design, testable code, and building software that solves real problems."
+  ],
+  "quickInfo": [
+    { "key": "location", "value": "Bengaluru, India" },
+    { "key": "experience", "value": "1.7 years" },
+    { "key": "availability", "value": "● Open to work", "highlight": true },
+    { "key": "focus", "value": "SDE | Full Stack | Backend" },
+    { "key": "education", "value": "B.Tech in Computer Science" }
+  ]
+}
