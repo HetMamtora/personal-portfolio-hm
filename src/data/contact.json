@@ -1,9 +1,9 @@
 {
   "paragraph": "Have a project in mind or just want to chat about technology? I'm always open to discussing new opportunities, interesting problems, or potential collaborations. Drop me a line and I'll get back to you as soon as possible.",
   "links": [
-    { "label": "beans@example.dev", "href": "mailto:beans@example.dev", "type": "email" },
-    { "label": "linkedin.com/in/beans", "href": "https://linkedin.com/in/beans", "type": "linkedin" },
-    { "label": "github.com/beans", "href": "https://github.com/beans", "type": "github" }
+    { "label": "mamtorahet@yahoo.com", "href": "mailto:mamtorahet@yahoo.com", "type": "email" },
+    { "label": "linkedin.com/in/het-mamtora", "href": "https://www.linkedin.com/in/het-mamtora/", "type": "linkedin" },
+    { "label": "github.com/HetMamtora", "href": "https://github.com/hetmamtora", "type": "github" }
   ],
   "emailjs": {
     "serviceId": "YOUR_SERVICE_ID",
