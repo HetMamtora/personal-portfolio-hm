@@ -4,7 +4,7 @@
     "logo": "https://res.cloudinary.com/beans-cloud/image/upload/v1782654165/PersonalPortfolio/fidelity_investments_pdkhup.png",
     "role": "Software Engineer",
     "period": "Feb 2025 – Feb 2026",
-    "description": "Built backend services and data pipelines using Java, Spring Boot, and AWS within Brokerage Technology. Designed a distributed logging library with trace ID propagation that reduced debugging time by ~75% across multiple teams. Shipped an event-driven analytics pipeline (SQS → Lambda → S3) processing 40M+ requests asynchronously, and built a dashboard surfacing actionable insights from S3-based payloads.",
+    "description": "Built backend services and data pipelines using Java, Spring Boot, and AWS within Brokerage Technology. Designed a distributed logging library with trace ID propagation that reduced debugging time by ~75% across multiple teams. Shipped an event driven analytics pipeline (SQS → Lambda → S3) processing ~40M+ requests asynchronously, and built a dashboard surfacing actionable insights from S3-based payloads.",
     "techStack": ["Java", "Spring Boot", "Jakarta EE", "AWS", "SQS", "Lambda", "S3", "CloudWatch", "Splunk", "DataDog", "React", "TypeScript"]
   },
   {
@@ -12,7 +12,7 @@
     "logo": "https://res.cloudinary.com/beans-cloud/image/upload/v1782654165/PersonalPortfolio/codiste_logo_yawfy2.svg",
     "role": "Full Stack Developer Intern",
     "period": "Nov 2024 – Jan 2025",
-    "description": "Delivered full-stack features using React, Node.js, and TypeScript across production apps. Built 'Find Teachers' — a job platform with OAuth, email automation, and PostgreSQL — launched with active beta users. Engineered S3 signed-URL uploads and AI proxy APIs for 'Space Re-Imagined', maintaining stability during a live expo demo.",
+    "description": "Delivered full-stack features using React, Node.js, and TypeScript across production apps. Built 'Find Teachers' a job platform with OAuth, email automation, and PostgreSQL launched with active beta users. Engineered S3 signed-URL uploads and AI proxy APIs for 'Space Re-Imagined', maintaining stability during a live expo demo.",
     "techStack": ["TypeScript", "Node.js", "Express", "React", "MongoDB", "Supabase (PostgreSQL)", "AWS S3"]
   },
   {
@@ -20,7 +20,7 @@
     "logo": "https://res.cloudinary.com/beans-cloud/image/upload/v1782654165/PersonalPortfolio/cognizant_logo_xiypo5.png",
     "role": "Programmer Analyst Intern",
     "period": "Sep 2023 – Dec 2023",
-    "description": "Built automated test scripts using Java Selenium for 3+ modules. Gained hands-on experience with test automation, defect identification, and software testing best practices.",
+    "description": "Built automated test scripts using Java Selenium for 3+ modules. Gained hands on experience with test automation, defect identification, and software testing best practices.",
     "techStack": ["Java", "JUnit", "Unit Tests", "Automation"]
   }
 ]
