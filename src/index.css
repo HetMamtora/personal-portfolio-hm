@@ -671,10 +671,41 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* ─── Projects ─── */
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 14px;
+.projects-section {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.projects-carousel {
+  overflow: hidden;
+  margin: 0 -40px;
+  padding: 0 0 8px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 5%,
+    black 95%,
+    transparent 100%
+  );
+}
+
+.projects-track {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+  animation: scroll-projects 30s linear infinite;
+  will-change: transform;
+}
+
+.projects-track:hover {
+  animation-play-state: paused;
 }
 
 .project-card {
@@ -685,11 +716,14 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   flex-direction: column;
   gap: 10px;
-  transition: border-color 0.2s, transform 0.2s;
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  flex: 0 0 340px;
+  min-height: 220px;
 }
 .project-card:hover {
   border-color: var(--accent-green);
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 255, 136, 0.06);
 }
 
 .project-name-row {
@@ -1027,6 +1061,11 @@ a { text-decoration: none; color: inherit; }
   50%      { transform: translateY(-6px); }
 }
 
+@keyframes scroll-projects {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 @keyframes border-spin {
   to { --border-angle: 360deg; }
 }
@@ -1188,7 +1227,9 @@ html, body { overflow-x: hidden; }
   .exp-description { word-wrap: break-word; overflow-wrap: break-word; }
 
   /* Projects */
-  .projects-grid { grid-template-columns: 1fr; }
+  .projects-carousel { margin: 0 -24px; }
+  .projects-track { animation-duration: 25s; }
+  .project-card { flex: 0 0 300px; min-height: 200px; }
 
   /* Skills */
   .skill-row { grid-template-columns: 1fr; gap: 8px; }
@@ -1243,7 +1284,9 @@ html, body { overflow-x: hidden; }
   .exp-description { font-size: 12px; padding-left: 12px; }
   .exp-tech-tags { padding-left: 12px; }
 
-  .project-card { padding: 16px; }
+  .projects-carousel { margin: 0 -16px; }
+  .projects-track { animation-duration: 20s; }
+  .project-card { flex: 0 0 260px; padding: 16px; min-height: 180px; }
   .project-name { font-size: 13px; }
   .project-desc { font-size: 11px; }
 
