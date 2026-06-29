@@ -1,4 +1,15 @@
 [
-  { "name": "Java Programming", "issuer": "Udemy", "date": "Mar 2024", "link": "https://www.udemy.com/certificate/UC-ddf287c4-e89a-46e8-8a9b-08b2750e1b93/", "previewImage":""},
-  { "name": "MERN - Full Stack Developer", "issuer": "30DaysCoding", "date": "Sep 2025", "link": "https://courses.30dayscoding.com/share-certificate?serialno=PWQSPUBY", "previewImage":""}
+  { 
+    "name": "Java Programming",
+    "issuer": "Udemy",
+    "date": "Mar 2024",
+    "link": "https://www.udemy.com/certificate/UC-ddf287c4-e89a-46e8-8a9b-08b2750e1b93/",
+    "previewImage":"https://res.cloudinary.com/beans-cloud/image/upload/v1782654165/PersonalPortfolio/het_java_cjp1yk.png"
+  },
+  {
+    "name": "MERN - Full Stack Developer",
+    "issuer": "30DaysCoding",
+    "date": "Sep 2025",
+    "link": "https://courses.30dayscoding.com/share-certificate?serialno=PWQSPUBY",
+    "previewImage":"https://res.cloudinary.com/beans-cloud/image/upload/v1782654165/PersonalPortfolio/het_mern_csdnvd.png"}
 ]

@@ -4,10 +4,5 @@
     { "label": "mamtorahet@yahoo.com", "href": "mailto:mamtorahet@yahoo.com", "type": "email" },
     { "label": "linkedin.com/in/het-mamtora", "href": "https://www.linkedin.com/in/het-mamtora/", "type": "linkedin" },
     { "label": "github.com/HetMamtora", "href": "https://github.com/hetmamtora", "type": "github" }
-  ],
-  "emailjs": {
-    "serviceId": "YOUR_SERVICE_ID",
-    "templateId": "YOUR_TEMPLATE_ID",
-    "publicKey": "YOUR_PUBLIC_KEY"
-  }
+  ]
 }

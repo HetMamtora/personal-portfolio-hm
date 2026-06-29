@@ -36,12 +36,18 @@ export default function ContactSection() {
 
     setStatus('sending');
 
+    const formData = new FormData(formRef.current);
+
     emailjs
-      .sendForm(
-        contact.emailjs.serviceId,
-        contact.emailjs.templateId,
-        formRef.current,
-        contact.emailjs.publicKey
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: formData.get('from_name') as string,
+          from_email: formData.get('from_email') as string,
+          message: formData.get('message') as string,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setStatus('success');
