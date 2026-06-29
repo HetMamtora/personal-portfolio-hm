@@ -30,10 +30,11 @@ export interface ExperienceEntry {
 
 export interface ProjectEntry {
   name: string;
+  company?: string;
   description: string;
   stars: number;
   techStack: string[];
-  github: string;
+  github?: string;
   liveDemo?: string;
 }
 

@@ -1,34 +1,34 @@
 [
   {
     "name": "MemoAlgo",
-    "description": "",
-    "stars": 342,
+    "description": "Full Stack DSA spaced repetition platform built with Java 21, Spring Boot, PostgreSQL, React, and TypeScript. Implements the SM-2 algorithm via Strategy pattern, features OTP verified JWT auth, a 15+ endpoint REST API, real-time analytics, and a 49 test JUnit suite. Deployed on Railway+Render & Vercel with custom domain and email infrastructure.",
+    "stars": "",
     "techStack": ["Java 21", "Spring Boot", "PostgreSQL", "Flyway", "JWT", "JUnit", "Maven", "React", "TypeScript", "REST API Design", "Railway", "Vercel"],
     "github": "https://github.com/HetMamtora/memoalgo-backend",
     "liveDemo": "https://memoalgo.dev"
   },
   {
     "name": "Fidelity Analytics Dashboard",
-    "description": "",
-    "stars": 342,
+    "company": "Fidelity Investments",
+    "description": "A analytics dsahboard build with React, TypeScript which takes JSON payload from 3 different services to surface actionable insigts based on the data collected across business units at Fidelity.",
+    "stars": "",
     "techStack": ["TypeScript", "React", "S3 Payload", "TailwindCSS"],
-    "github": "https://github.com",
     "liveDemo": "https://github.com"
   },
   {
     "name": "FindTeachers",
-    "description": "",
-    "stars": 342,
-    "techStack": ["teach 1"],
-    "github": "https://github.com",
+    "company": "Codiste - Blockchain & AI Company",
+    "description": " Independently built a responsive job platform for teachers using ReactJS and Node.js, streamlining connections between educators and institutes. Implemented user onboarding, OAuth authentication, email workflows (SendGrid), and data management with Supabase and PostgreSQL. Ensured a consistent and intuitive UI by aligning development with Figma design prototypes for a polished user experience.",
+    "stars": "",
+    "techStack": ["ReactJS", "Node.js", "TypeScript", "Supabase", "Bolt", "OAuth", "SendGrid", "PostgreSQL", "Figma"],
     "liveDemo": "https://findteachers.in/"
   },
   {
     "name": "Space Re-Imagined",
-    "description": "",
-    "stars": 342,
-    "techStack": ["teach 1"],
-    "github": "https://github.com",
-    "liveDemo": "https://github.com"
+    "company":"Codiste - Blockchain & AI Company",
+    "description": " Developed backend features for image submissions, including AWS S3 uploads, signed URL generation, and secure media delivery via SendGrid. Implemented user authentication, an AI-driven image generation proxy API, and a fully functional Contact Us module with seamless frontend integration. Optimized RESTful APIs for efficient communication between the Node.js backend and external Python services, boosting system performance.",
+    "stars": "",
+    "techStack": ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "TypeScript", "WebHooks", "AWS S3", "RESTAPIs"],
+    "liveDemo": "https://spacereimagined.ai/"
   }
 ]
