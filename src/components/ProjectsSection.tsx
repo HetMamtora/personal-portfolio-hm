@@ -1,7 +1,7 @@
 import projectsData from '../data/projects.json';
 import type { ProjectEntry } from '../types';
 
-const projects = projectsData as ProjectEntry[];
+const projects = projectsData as unknown as ProjectEntry[];
 
 function ProjectCard({ project }: { project: ProjectEntry }) {
   return (

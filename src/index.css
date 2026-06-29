@@ -542,6 +542,9 @@ a { text-decoration: none; color: inherit; }
 .quick-info-highlight { color: var(--accent-green); }
 
 /* ─── Experience ─── */
+.exp-mobile { display: none; }
+.exp-desktop { display: flex; }
+
 .exp-layout {
   display: flex;
   gap: 0;
@@ -670,9 +673,118 @@ a { text-decoration: none; color: inherit; }
   padding: 4px 12px;
 }
 
+/* Experience accordion (mobile) */
+.exp-accordion {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.exp-acc-item {
+  border: 1px solid var(--border-default);
+  border-radius: 8px;
+  background: var(--bg-surface);
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.exp-acc-item-active {
+  border-color: var(--accent-green);
+}
+
+.exp-acc-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  gap: 12px;
+}
+
+.exp-acc-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.exp-acc-header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.exp-acc-company {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  text-align: left;
+}
+.exp-acc-item-active .exp-acc-company {
+  color: var(--accent-green);
+}
+
+.exp-acc-role-brief {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exp-acc-header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.exp-acc-period {
+  font-size: 10px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.exp-acc-chevron {
+  color: var(--text-muted);
+  transition: transform 0.25s ease;
+  display: flex;
+  align-items: center;
+}
+.exp-acc-chevron-open {
+  transform: rotate(180deg);
+  color: var(--accent-green);
+}
+
+.exp-acc-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  padding: 0 16px;
+}
+.exp-acc-body-open {
+  max-height: 600px;
+  padding: 0 16px 20px;
+}
+
+.exp-acc-body .exp-content-inner {
+  padding-top: 8px;
+  border-top: 1px solid var(--border-default);
+}
+
+.exp-acc-body .exp-meta {
+  margin-left: 0;
+  flex-wrap: wrap;
+}
+.exp-acc-body .exp-role { font-size: 16px; }
+.exp-acc-body .exp-content-logo { width: 28px; height: 28px; }
+
 /* ─── Projects ─── */
 .projects-section {
-  max-width: 100%;
   overflow: hidden;
 }
 
@@ -1197,34 +1309,9 @@ html, body { overflow-x: hidden; }
   /* About */
   .about-grid { grid-template-columns: 1fr; gap: 32px; }
 
-  /* Experience — tabs become horizontal scroll */
-  .exp-layout { flex-direction: column; }
-  .exp-tabs {
-    width: 100%;
-    border-right: none;
-    border-bottom: 1px solid var(--border-default);
-    display: flex;
-    flex-direction: row;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .exp-tab {
-    min-width: 160px;
-    flex-shrink: 0;
-    border-left: none;
-    border-bottom: 2px solid transparent;
-    padding: 14px 16px;
-  }
-  .exp-tab-active {
-    border-left-color: transparent;
-    border-bottom-color: var(--accent-green);
-  }
-  .exp-tab-period { margin-left: 38px; }
-  .exp-content { padding: 24px 0 0 0; min-height: auto; overflow: hidden; }
-  .exp-meta { margin-left: 0; flex-wrap: wrap; }
-  .exp-role-top { flex-wrap: wrap; }
-  .exp-role { font-size: 18px; }
-  .exp-description { word-wrap: break-word; overflow-wrap: break-word; }
+  /* Experience — accordion on mobile */
+  .exp-desktop { display: none !important; }
+  .exp-mobile { display: flex !important; }
 
   /* Projects */
   .projects-carousel { margin: 0 -24px; }
@@ -1276,13 +1363,11 @@ html, body { overflow-x: hidden; }
   .about-grid { gap: 24px; }
   .quick-info-card { padding: 16px; }
 
-  .exp-tab { min-width: 140px; padding: 10px 12px; }
-  .exp-tab-logo { width: 24px; height: 24px; }
-  .exp-tab-company { font-size: 12px; }
-  .exp-role { font-size: 16px; }
-  .exp-content-logo { width: 28px; height: 28px; }
-  .exp-description { font-size: 12px; padding-left: 12px; }
-  .exp-tech-tags { padding-left: 12px; }
+  .exp-acc-header { padding: 12px 14px; }
+  .exp-acc-company { font-size: 12px; }
+  .exp-acc-body .exp-role { font-size: 15px; }
+  .exp-acc-body .exp-description { font-size: 12px; padding-left: 12px; }
+  .exp-acc-body .exp-tech-tags { padding-left: 12px; }
 
   .projects-carousel { margin: 0 -16px; }
   .projects-track { animation-duration: 20s; }
